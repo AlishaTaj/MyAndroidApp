@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display Event Name -->
+    <TextView
+        android:id="@+id/tvEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Event Name"/>
+
+    <!-- Display Event Mode -->
+    <TextView
+        android:id="@+id/tvEventMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Mode"/>
+
+    <!-- Display Event Date -->
+    <TextView
+        android:id="@+id/tvEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Date"/>
+
+    <!-- Display Event Rating -->
+    <TextView
+        android:id="@+id/tvEventRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Rating"/>
+
+    <!-- Display an Image for the event -->
+    <ImageView
+        android:id="@+id/eventImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/brochure" /> <!-- Default image for display -->
+
+</LinearLayout>
